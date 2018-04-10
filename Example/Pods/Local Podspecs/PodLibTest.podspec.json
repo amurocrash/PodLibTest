@@ -12,18 +12,15 @@
     "amurocrash@126.com": "amurocrash@126.com"
   },
   "source": {
-    "git": "https://github.com/amurocrash@126.com/PodLibTest.git",
+    "git": "~/Downloads/DevelopIOS/workspace/PodLibTest",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodLibTest/Classes/**/*",
+  "source_files": "PodLibTest/Classes/**/*.{h,m}",
   "public_header_files": "PodLibTest/Classes/DiGraphSayHello.h",
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ],
+  "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

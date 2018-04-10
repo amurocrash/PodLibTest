@@ -25,18 +25,22 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'amurocrash@126.com' => 'amurocrash@126.com' }
-  s.source           = { :git => 'https://github.com/amurocrash@126.com/PodLibTest.git', :tag => s.version.to_s }
+  s.source           = { :git => '~/Downloads/DevelopIOS/workspace/PodLibTest', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodLibTest/Classes/**/*'
+  #s.source_files = 'PodLibTest/Classes/**/*'
+  s.source_files  = 'PodLibTest/Classes/*.{h,m}'
+  s.source_files  = 'PodLibTest/Classes'
+  s.source_files  = 'PodLibTest/Classes/**/*.{h,m}'
+  
   
   # s.resource_bundles = {
   #   'PodLibTest' => ['PodLibTest/Assets/*.png']
   # }
 
   s.public_header_files = 'PodLibTest/Classes/DiGraphSayHello.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '~> 2.3'
 end

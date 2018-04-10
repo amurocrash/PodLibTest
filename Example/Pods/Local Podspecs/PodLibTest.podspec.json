@@ -12,7 +12,7 @@
     "amurocrash@126.com": "amurocrash@126.com"
   },
   "source": {
-    "git": "~/Downloads/DevelopIOS/workspace/PodLibTest",
+    "git": "/Users/didi/Downloads/DevelopIOS/workspace/PodLibTest",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,6 +7,8 @@
 //
 
 #import "DiGraphViewController.h"
+#import <PodLibTest/DiGraphSayHello.h>
+
 
 @interface DiGraphViewController ()
 
@@ -18,12 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    DiGraphSayHello* dgsh = [[DiGraphSayHello alloc] init];
+    [dgsh invoke];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
 }
 
 @end

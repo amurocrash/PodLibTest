@@ -1,0 +1,32 @@
+{
+  "name": "PodLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of PodLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/amurocrash@126.com/PodLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amurocrash@126.com": "amurocrash@126.com"
+  },
+  "source": {
+    "git": "https://github.com/amurocrash@126.com/PodLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodLibTest/Classes/**/*",
+  "public_header_files": "PodLibTest/Classes/DiGraphSayHello.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

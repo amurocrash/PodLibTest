@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'PodLibTest' => ['PodLibTest/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'PodLibTest/Classes/DiGraphSayHello.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
